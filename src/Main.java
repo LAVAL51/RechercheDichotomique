@@ -6,7 +6,6 @@ public class Main {
         String[] arr = {"Anthony", "Boby", "Conan", "Maurice", "Patrice", "Zurfu"};
         int n = arr.length;
         String search = "anThOny";
-        String position = ob.binarySearch(arr, 0, n, search);
-        System.out.println(position);
+        System.out.println(ob.binarySearch(arr, 0, n, search));
     }
 }
